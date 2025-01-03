@@ -75,6 +75,7 @@ body{
 }
 .inputBox{
     margin-bottom: 20px;
+    max-width: 80%;
 }
 .pokemonInput{
     border: none;
@@ -86,6 +87,7 @@ body{
     font-size: 3vh;
     margin-left: 10px;
     border-radius: 10px;
+    max-width: 25%;
 }
 .pokemonPic{
     height: 20vh;
