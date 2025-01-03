@@ -212,6 +212,7 @@ async function inputted(){
         randomNumber = savedRandom
     }
     pokemon = pokemonInput.value
+    pokemon = pokemon.toLowerCase();
     let truth = await pokemonSelect(pokemon)
     if(truth){
         inputBox.style.display="none"
@@ -226,6 +227,7 @@ async function inputted(){
     }
 }
 function catchSuccess(){
+    pokemon=pokemon.toUpperCase();
     progressBar.style.width=0+'%'
     progress=0
     mainBox.style.display="none"
