@@ -227,7 +227,7 @@ async function inputted(){
     }
 }
 function catchSuccess(){
-    pokemon=pokemon.toUpperCase();
+    pokemon=pokemon.charAt().toUpperCase() + pokemon.slice(1);
     progressBar.style.width=0+'%'
     progress=0
     mainBox.style.display="none"
