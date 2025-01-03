@@ -73,6 +73,19 @@ navBar.addEventListener("mouseleave",function(){
     }
     
 })
+menuPic.addEventListener("click",function(){
+
+    if (menuOn){
+        navBar.style.width=0 + '%'
+        //navBar.style.display="none"
+        pokemonMenu.style.display="none"
+        menuPic.style.display="none"
+        menuPic2.style.display="flex"
+        menuOn=false
+
+    }
+    
+})
 menuPic2.addEventListener("mouseenter",function(){
     if (!menuOn){
         console.log("hi")
