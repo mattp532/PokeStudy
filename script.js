@@ -58,7 +58,7 @@ addPartyButton.style.display="none"
 progressContainer.style.display="none"
 pokemonMenu.style.display="none"
 pokemonCollection.style.display="none"
-
+console.log("version 1")
 
 //navBar.style.display="none"
 skip.style.display="none"
