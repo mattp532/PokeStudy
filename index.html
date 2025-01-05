@@ -3,10 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
+    <title>PokéStudy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="titleBox">
+        <img class="pokeball"src="images/pokeball.png" alt="">
+        <h1 class="title">PokéStudy</h1>
+    </div>
+    <div class="inputBox">
+        <input type="text" class="pokemonInput" placeholder="enter a pokemon">
+        <button class="enter">enter</button>
+
+            <button  class="randomize"><img class="shuffle"src="images/shuffle.png" alt=""></button>
+
     
+    </div>
+
+    <img class="pokemonPic"src="" alt="">
+    <img class="menuPic2" src="images/menu.webp" alt="">
+    <div class="navBar">
+        <img class="menuPic" src="images/menu.webp" alt="">
+        <button class="pokemonMenu">pokemon</button>
+        <button class="skip"> skip</button>
+    </div>
+   
+   
+    <p class="catchTime"></p>
+
+
+
+
+    <div class="progressContainer"><div class="progressBar"></div></div>
+
+
+    <button class="addParty"> Add to party </button>
+    <div class="mainBox">
+        <div>
+            <p class="display">
+                00:00:00
+            </p>  
+        </div>
+        <div class="controls">
+            <button class="startButton">start</button>
+            <button class="stopButton">pause</button>
+            <button class ="clearButton">change pokemon</button>
+
+            
+        </div>
+    </div>
+    <div class="pokemonCollection">
+        <p class="pageNum"></p>
+        <button class="exitPokemonCollection">
+            X 
+        </button>
+        <img class="leftArrow" src="images/leftArrow.png" alt="">
+        <img class="rightArrow"src="images/rightArrow.png" alt="">
+        <div class="pokemonGrid">
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
