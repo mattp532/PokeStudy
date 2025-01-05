@@ -62,6 +62,7 @@ body{
     font-size: 110%;
     width: 15vh;
     min-height: 5vh;
+    color: black;
 
 
 
@@ -116,6 +117,7 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: black;
 }
 .pokemonPic{
     height: 20vh;
@@ -216,6 +218,7 @@ text-decoration: none;
     margin-top: 10px;
     font-family: "Afacad Flux", serif;
     cursor: pointer;
+    color: black;
 }
 .menuPic{
     
