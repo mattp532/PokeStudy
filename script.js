@@ -314,7 +314,7 @@ async function inputted(){
         catchTime.style.display="flex"
         progressBar.style.display="flex"
         progressContainer.style.display="flex"
-        catchTime.innerHTML =`${randomNumber} minutes to catch`
+        catchTime.innerHTML =`${randomNumber} minutes till caught`
         timerStart()
 
     }
